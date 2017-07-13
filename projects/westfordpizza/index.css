@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "peacesans";
+  src: url(fonts/peacesans/peacesans.ttf);
+}
+
+body {
+	background-image: url(images/cardboard.jpg);
+}
+
+
+#container {
+	font-family: "peacesans", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: #ee4035;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	font-size: medium;
+}
+
+#container img{
+	display: block;
+	width: 100%;
+	margin-left: none;
+	position: relative;
+}
+
+p {
+	margin: 0;
+}
+
+#content{
+	background-color: white;
+	border-radius: 5px;
+	margin: 5%;
+	width: 56%;
+	padding: 2%;
+}
+
+#content h1 {
+	font-size: 220%;
+	color: #ee4035;
+	text-align: center;
+}
+
+#content h2 {
+	font-size: 200%;
+	color: #ee4035;
+	text-align: center;
+}
+
+#content img {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+#sidebar {
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	float: right;
+	margin: 5%;
+	width: 20%;
+	padding: 2%;
+}
+
+#sidebar h1 {
+	font-size: 150%;
+	color: #ee4035;
+}
+
+#sidebar h2 {
+	font-size: 120%;
+	color: #008955;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+}
+
+#fb {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin: 5%;
+}
+
+#sidebar a {
+	font-family: "peacesans", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #ee4035;
+	font-size: 110%;
+}
+
+#sidebar a:hover {
+	color: #e9655c;
+	transition: 0.2s;
+}
+
+#footer {
+	background-color: #008955;
+	padding: 2%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+}
+#footer img {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer p{
+	color: white;
+	text-align: center;
+	font-zize: medium;
+	margin: 2%;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008955;
+}
+
+ul.topnav li {
+	float: left;
+	}
+
+ul.topnav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {
+	background-color: #ee4035;
+	}
+	
+ul.topnav li a.active {
+	background-color: #ee4035;
+	}
+
+ul.topnav li.icon {
+	display: none;
+	}
+
+@media screen and (max-width:680px) {
+	
+#container{
+	width: 100%;
+}
+	
+#sidebar {
+	display: none;
+	width: 80%;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	
+  ul.topnav li:not(:first-child) {
+	  display: none;
+	  }
+	  
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  
+	
+  ul.topnav.responsive {
+	  position: relative;
+	  }
+	  
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  
+}

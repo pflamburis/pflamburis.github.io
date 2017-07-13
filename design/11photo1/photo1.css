@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #2d4671;
+}
+
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: center;
+	color: #051838;
+}
+
+h2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: center;
+	color: #051838;
+}
+
+p.text {
+	padding: 12px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+}
+
+#header {
+	background-color: #4D658D;
+	padding: 1px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#money {
+	background-color: #4D658D;
+	width: 500px;
+	padding: 10px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#money img {
+	margin-left: 17px;
+}
+
+#monument {
+	background-color: #4D658D;
+	width: 540px;
+	padding: 10px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#monument img {
+	padding: 11px;
+}
+
+#bird {
+	background-color: #4D658D;
+	width: 650px;
+	padding: 10px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bird img {
+	padding: 10px
+}
+
+#rooster {
+	background-color: #4D658D;
+	width: 665px;
+	padding: 10px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rooster img {
+	padding: 10px
+}

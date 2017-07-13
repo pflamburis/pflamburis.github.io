@@ -1,0 +1,41 @@
+
+	body {
+		font-family: courier, courier new, monospace;
+		font-weight: bold;
+		font-size: medium;
+		background-color: #66ffff
+	} 
+	h1, h2, h3 {
+		color: #ff0000;
+	}
+	h1, h2 {
+		font-family: impact, serif;
+		border-bottom: thin dotted #ff0000;
+	}
+	h1 {
+		font-size: 200%;
+	}
+
+	h2 {
+		font-size: 160%;
+	}
+	h3 {
+		font-family: courier, courier new, monospace;
+		font-weight: bold;
+		font-size: 130%;
+		text-decoration: underline;
+	}
+	ul {
+		color: #006600;
+	}
+
+	ol {
+		color: #006600;
+	}
+	q {
+		font-style: italic;
+	}
+	blockquote {
+		font-style: italic;
+	}
+

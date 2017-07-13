@@ -1,0 +1,24 @@
+<style type="text/css">
+	body{
+	font-family: sans-serif;
+	}
+	h1,h2{
+	font-family: sans-serif;
+	color:#CC99FF
+	};
+	W{
+	border-bottom: 1px solid black;
+	}
+	P{
+	color:#990000;
+	}
+	p.greentea{
+	color:#00ee00;
+	}
+	p.raspberry{
+	color:#0000ff;
+	}
+	p.blueberry{
+	color:#330066;
+	}
+</style>
